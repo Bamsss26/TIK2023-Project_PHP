@@ -1,3 +1,10 @@
+<?php
+
+require 'function/functions.php';
+$blog = query("SELECT * FROM blog");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -115,8 +122,8 @@
         </div>
     </section>
 
-    <body> 
-        </div>
+    <body>
+       </div>
          <div class="photo" id="A3">
              <div class="gallery">
                  <div class="img-box"><h3>Kobe Bryant</h3></div>
@@ -129,7 +136,7 @@
              </div>
          </div>
 
-     </body>
+    </body>
     
 
     
